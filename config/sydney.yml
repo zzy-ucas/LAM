@@ -1,0 +1,12 @@
+dataset : 'sydney'
+image_dir : '/data/Sydney_captions/jpgs'
+caption_path : '/data/Sydney_captions/dataset_jpg.json'
+caption_val_path : 'annotations/captions_sydney_val.json'
+vocab_path: './data/vocab_sydney.pkl'
+vgg_model_path : './data/vgg16_finetune_sydney_42_1000.pkl'
+num_classes : 7
+batch_size: 16
+pattern: 'baseline'
+
+#session: !!str 5
+gpu: '2'

@@ -1,0 +1,13 @@
+dataset : 'ucm'
+image_dir : '/data/UCM_captions/jpgs'
+#caption_path : 'annotations/captions_ucm_total.json'
+caption_path : '/data/UCM_captions/dataset_jpg.json'
+caption_val_path : 'annotations/captions_ucm_val.json'
+vocab_path: './data/vocab_ucm.pkl'
+vgg_model_path : './data/vgg16_finetune_ucm_41_1000.pkl'
+num_classes : 21
+batch_size: 9
+pattern: 'truelabel'
+
+#session: !!str 5
+gpu: '7'

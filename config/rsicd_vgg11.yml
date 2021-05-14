@@ -1,0 +1,13 @@
+dataset : 'rsicd'
+image_dir : '/data/RSICD/jpgs'
+caption_path : '/data/RSICD/dataset_jpg_1w.json'
+caption_val_path : 'annotations/captions_rsicd_val.json'
+vocab_path: './data/vocab_rsicd.pkl'
+vgg_model_path : '/workspace/RSICD_classify/vgg11_finetune_rsicd_10_1000.pkl'
+#vgg_model_path : './data/vgg16_finetune_rsicd_20_1000.pkl'
+num_classes : 30
+batch_size: 6
+pattern: 'baseline'
+
+#session: !!str 5
+gpu: '3'

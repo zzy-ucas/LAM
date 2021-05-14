@@ -1,0 +1,13 @@
+dataset : 'sydney'
+image_dir : '/data/UCM_captions/jpgs'
+caption_path : '/data/UCM_captions/dataset_jpg.json'
+caption_val_path : 'annotations/captions_ucm_test.json'
+start_from: 'log_ucm_non/11/model-best.pkl'
+checkpoint_path: 'log_ucm_non/11'
+start_from: 'log_ucm_2fc_cos/11/model-best.pkl'
+checkpoint_path: 'log_ucm_2fc_cos/11'
+
+vocab_path: './data/vocab_ucm.pkl'
+eval_size: 8
+
+gpu: !!str 0
